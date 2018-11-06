@@ -8,21 +8,21 @@ Sync gitlab or local git contributions to github account
 - Push mock commit automatically   
 
 ## Install
-- Git clone
+- Git clone   
   - `git clone https://github.com/KevinOfNeu/Himma.git`
   - `cd Himma`
 
-- Edit configuration
+- Edit configuration   
   Replace repo with yoursef
 
 - Run `./configure`
   
 
 ## Config 
-- Already exists repos
+- Already exists repos   
   Run `git init` to copy git hooks
 
-- New git repos
+- New git repos   
   No futher configs
 
 ## Sync
