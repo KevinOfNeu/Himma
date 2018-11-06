@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo 'Himma record commit ...'
+
+# Place your github repo XXX there!!!
+cd ~/Workspace/github/Git-Sync-Commit
+
+# Edit commit msg here
+date >> commit.log
+git add .
+git commit -m'You have an commit this time'
+
+echo 'Himma sync commit...'
+# Sync
+git pull --rebase
+git push
+cd -
+
+echo 'Himma sync commit done!!!'

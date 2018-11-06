@@ -1,0 +1,15 @@
+# config
+git config --global init.templatedir '~/.git-templates'
+
+# hooks dir
+mkdir -p ~/.git-templates/hooks
+
+# copy hooks
+cp commit-msg  ~/.git-templates/hooks
+
+# make runnable
+chmod a+x ~/.git-templates/hooks/commit-msg
+
+
+
+
